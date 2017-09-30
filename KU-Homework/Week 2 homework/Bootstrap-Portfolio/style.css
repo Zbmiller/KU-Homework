@@ -1,0 +1,69 @@
+#navbar {
+	background-color: #ffffff;
+	color: #eeeeee;
+
+}
+
+.navbar-brand {
+	text-decoration: none;
+	background-color: #4aaaa5;
+}
+
+.container {
+	background-image: url(imagebackground.png);
+}
+
+#AboutMe {
+	position: relative;
+	background-color: #ffffff;
+	color: #eeeeee;
+
+}
+
+hr {
+	border-top: solid 2px #eeeeee;
+}
+
+h1 {
+	color: #4aaaa5;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+#profile {
+	transform: rotate(270deg);
+}
+
+#textsection {
+	position: relative;
+	background-color: #ffffff;
+	color: #777777;
+	word-wrap: 100%;
+	margin: 15px;
+}
+
+#ContactBox {
+	background-color: #ffffff;
+}
+
+#blankcolumn {
+	width: 75px;
+	height: 600px;
+}
+
+#blankspace {
+	width: 100%;
+	height: 100px;
+}
+
+#footer {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	margin: 10px;
+}
+
