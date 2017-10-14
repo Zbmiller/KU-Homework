@@ -60,7 +60,7 @@ function handleUserSelection(chosenLetter) {
 			// updatewrong choise string
 			// updateWrongChoiceString()
 		}
-		attempts++
+		attempts--;
 
 		// Check attempts remaining.
 		if (attempts <= 0) {

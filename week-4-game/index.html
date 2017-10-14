@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+
+
+	<title>Crystals</title>
+
+</head>
+
+<body>
+<div class="container-fluid">
+	
+
+	<div id="header" class="row">
+		<div class="col-md-12"><p>Crystal Collector</p></div>
+	</div>
+
+	<div class="row">
+		<div id="blankleft" class="col-md-2"></div>
+		<div id="instructions" class="col-md-4">	
+			<p>You will be given a random number at the start of the game.</p>
+			
+			<p>There are four crystals in the Crystal Box. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			
+			<p>You win the game be matching your total score to the random number. You lose the game if your total score goes above to the random number.</p>
+			
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			
+			<p>Each time when the game starts, the values of each crystal will change.</p>
+		</div>
+		
+		<div id="gameBox" class="col-md-4">
+			<div id="randomNumberBox">The Number To Match:</div>
+				<div id="randomNumber"></div>
+			<div id="winsLossesBox">
+				<div>Wins:
+					<div id="win"></div>
+				</div>
+				<div>Losses:
+					<div id="loss"></div>
+				</div>	
+				
+			</div>
+			<div class="row">
+				<button id="crystal1" class="col-xs-3"><img src="assets/images/5-Star_Crystal.png" width="135px"></button>
+				<button id="crystal2" class="col-xs-3"><img src="assets/images/LightsaberCrystal.png" width="100px"></button>
+				<button id="crystal3" class="col-xs-3"><img src="assets/images/Seed_Crystal.png" width="75px"></button>
+				<button id="crystal4" class="col-xs-3"><img src="assets/images/Star_Crystal.png" width="135px"></button>
+			</div>
+			<div id="scoreBoxTitle"><p>Your Score is:</p></div>
+			<div id="scoreBox"></div>
+		</div>
+
+		<div id="blankright" class="col-md-2"></div>
+	</div>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+	background-image: url("../images/Cave.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header {
+	font-size: 45px;
+	color: purple;
+	font-style: bold;
+	text-align: center;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;  
+}
+
+#blankleft {
+	height: 500px;
+}
+
+#instructions {
+	height: 500px;
+	background: rgba(54, 54, 200, 0.3);
+	color: #ffffff;
+	font-size: 20px;
+	border: dashed 3px purple;
+}
+
+#gameBox {
+	height: 500px;
+	background: rgba(54, 54, 200, 0.3);
+	color: #ffffff;
+	border: dashed 3px purple;
+	font-size: 20px;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#crystal1{
+	left: -15px;
+}
+
+#crystal4 {
+	left: -15px;
+}
+
+#blankright {
+	height: 500px;
+}
