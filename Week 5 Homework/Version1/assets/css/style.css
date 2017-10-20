@@ -1,0 +1,40 @@
+body {
+	background-image: url(../images/ice-hockey-background.jpg); 
+	background-size: cover;                   
+	background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+header{
+	font-size: 45px;
+	font-family: 'Stalinist One', cursive;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+}
+
+/*#clock {*/
+	/*font-family: 'Iceland', cursive;*/
+	/*color: #ffffff;*/
+/*}*/
+
+#gameClock {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Iceland', cursive;
+	font-size: 35px;
+}
+
+#questionBody {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Iceland', cursive;
+	font-size: 25px;
+}
+
+#Submit {
+	font-family: 'Iceland', cursive;
+	color: #000000;
+}
