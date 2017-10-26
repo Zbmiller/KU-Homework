@@ -34,7 +34,7 @@ function renderGifs () {
 
 	      for (var i = 0; i < results.length; i++) {
 
-	   	  	var gifDiv = $("<div class = 'col-md-2 gif'>");
+	   	  	var gifDiv = $("<div class = 'gif'>");
 	      	var rating = $("<p>").text("Rating: " + results[i].rating);
 	      	var gifImage = $("<img>");
 
