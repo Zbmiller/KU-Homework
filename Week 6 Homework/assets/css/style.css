@@ -1,0 +1,33 @@
+body {
+	background-image: url(../images/computermonitor.jpg); 
+	background-size: cover;                   
+	background-repeat: no-repeat;
+ }
+
+ .container{
+	color: limegreen;
+	font-family: 'Audiowide', cursive;
+ }
+
+header {
+	font-size: 50px;
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px;
+}
+
+#gifButtons {
+	bottom: 10px;
+}
+
+form {
+	bottom: 10px;
+}
+
+ button {
+ 	background-color: #000000;
+ }
+
+ #addButton {
+ 	background-color: #000000;
+ }
+
