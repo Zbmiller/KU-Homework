@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<title>Train Times</title>
+
+</head>
+
+<body>
+
+<div class="container">
+	<header>Train Times</header>
+	<br>
+	<br>
+	<div id="displayTable" class="row">
+		<div id="header" class="col-md-12">Current Train Schedule</div>
+			<table class="table">
+    			<thead>
+      				<tr>
+				        <th>Train Name</th>
+				        <th>Destination</th>
+				        <th>Frequency (min)</th>
+				        <th>Next Arrival</th>
+				        <th>Minutes Away</th>
+      				</tr>
+    			</thead>
+
+    			<tbody id="displayTable">
+				    <tr>
+				      <!--   <td>John</td>
+				        <td>Doe</td>
+				        <td>john@example.com</td> -->
+				    </tr>
+    			</tbody>
+    		</table>
+	</div> <!--display table end -->
+	<br>
+	<div id="trainEntry" class="row">
+		<div id="header" class="col-md-12">Add Train</div><br>
+			<form id="dataEntrey">
+			   <div class="form-group">
+				<label>Train Name</label><br>
+					<input id="trainName" type="name" name="name" placeholder="Enter Name">
+			  </div>
+			  <div class="form-group">
+				<label>Destination</label><br>
+					<input id="destinationInput" type="destination" name="destination" placeholder="Destination">
+			  </div>
+			  <div class="form-group">
+				<label>First Train Time (HH:mm - Military Time)</label><br>
+					<input id="firstTime" type="train" name="time" placeholder="HH:mm">
+			  </div>
+			  <div class="form-group">
+				<label>Frequency</label><br>
+					<input id="frequencyInput" type="frequency" name="frequency" placeholder="Frequency (Total mins)">
+			  </div>
+			  <div class="submitButton">
+				<button id="submitBTN" type="submit" class="btn btn-default">Submit</button>
+			  </div>
+			</form>
+	</div> <!--entry div end -->
+</div> <!--container ending -->
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.js" integrity="sha256-1ni73t/Fu4WpdnQI5OzfL5KFTY8VmP6fntwKqxx9W8o=" crossorigin="anonymous"></script>
+</body>
+</html>
+
