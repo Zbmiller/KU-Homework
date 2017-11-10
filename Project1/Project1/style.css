@@ -1,0 +1,108 @@
+body {
+	background-image: url("../Project1/images/messyliving.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: fill;
+}
+
+
+header{
+	height: 275px;
+	width:100%;
+	object-fit: fill;
+	background-image: url("../Project1/images/flatcatearth2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+ul {
+	list-style: none;
+	font-family: gotham, "helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: bold;
+	padding:0;
+}
+
+.newsTickerCon{
+	background: #333333;
+	overflow: hidden
+	/*opacity: 0.3;*/
+}
+
+.newsTickerCon a {
+	background:rgba(e,e,e,e) no-repeat scroll left center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 11px 15px;
+	white-space: nowrap;
+	display:inline;
+	text-decoration: none;
+	height:100%;
+
+}
+
+#schedule{
+	width: 400px;
+    height: 700px;
+    background-color: gray;
+    overflow-y: auto;
+    max-width: 280px;
+    max-height: 600px;
+}
+
+.playerTV {
+	border-style: solid;
+    border-width: 50px 50px 50px 50px;
+    border-color: #000000;
+}
+
+#TV {
+	position:absolute;
+	/*top: -10px;*/
+	/*left: -10px;*/
+	z-index: 3;
+	pointer-events: none;
+}
+
+.playerTV{
+	position:absolute;
+	top: 45px;
+	left: 37px;
+	z-index: 2;
+	background-color: #000000;
+	border-top: 20px, #000000;
+	border-border: 20px, #000000; 
+}
+
+#chatBox{
+	float: right;
+}
+
+#schedule{
+	color: #ffffff;
+	background-color: #000000;
+	opacity: 0.75;
+}
+
+.msg {
+    margin: 10px 0;
+    padding: 10px;
+    width: 275px;
+    background-color: #000000;
+    float: left;
+    opacity: 0.75;
+    color: #fff;
+}
+
+#username, #text {
+    margin: 5px 0px;
+}
+
+#post {
+    padding: 0.5em 1em;
+    background-color: #50b1ff;
+    border: none;
+    color: #FFF;
+}
